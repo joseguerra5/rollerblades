@@ -1,20 +1,37 @@
 header {
   justify-content: space-between;
 
+  &>img {
+    transition: transform 0.5s ease;
+  }
+
+  &>img:hover {
+    transform: rotate(90deg);
+  }
+
   & .shopping-bag {
     position: relative;
-  
+
     width: 2rem;
-  
+
     & .bag-item {
       background-color: var(--snitap-sun);
       border-radius: 50%;
       width: var(--fs-lg);
       position: absolute;
-  
+
       text-align: center;
       top: -9px;
       right: -3px;
     }
   }
+
+  & .shopping-bag>img {
+    transition: transform 0.5s ease;
+  }
+
+  & .shopping-bag>img:hover {
+    transform: rotate(-45deg);
+  }
+
 }
