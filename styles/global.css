@@ -41,9 +41,11 @@
   --fw-md: 500;
   --fw-bold: 800;
 
+  --py-base: 1.25rem;
   --py-xl: 2.5rem;
   --py-lg: 2rem;
-  --px-lg: 2rem;
+  --px-lg: 1.5rem;
+  --px-xl: 2rem;
 }
 
 body {
@@ -57,3 +59,4 @@ html {
   color: var(--text-color);
 
 }
+

@@ -1,0 +1,20 @@
+header {
+  justify-content: space-between;
+
+  & .shopping-bag {
+    position: relative;
+  
+    width: 2rem;
+  
+    & .bag-item {
+      background-color: var(--snitap-sun);
+      border-radius: 50%;
+      width: var(--fs-lg);
+      position: absolute;
+  
+      text-align: center;
+      top: -9px;
+      right: -3px;
+    }
+  }
+}
