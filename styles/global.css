@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /*reset de todos os atributos */
+  font: inherit;
+
+  /* Deixa a fonte mais suave*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --text-color: #000000;
+  --text-highlight: #000000;
+  --background-color: #FAFAFA;
+
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67E8F9;
+  --snitap-joy-mid: #DB2777;
+  --snitap-joy-light: #F472B6;
+  --snitap-leaf-mid: #16A34A;
+
+  --ff-syne: "syne",  system-ui, sans-serif;
+  --ff-montserrat: "montserrat", system-ui, sans-serif;
+
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 2.5rem; 
+  --fs-2xl: 4rem;
+
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
+
+  --py-xl: 2.5rem;
+  --py-lg: 2rem;
+  --px-lg: 2rem;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+html {
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-md);
+  color: var(--text-color);
+
+}
