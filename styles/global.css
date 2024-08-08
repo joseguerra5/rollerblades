@@ -31,15 +31,15 @@
   --ff-syne: "syne",  system-ui, sans-serif;
   --ff-montserrat: "montserrat", system-ui, sans-serif;
 
-  --fs-sm: 0.875rem;
+  --fs-sm: 0.75rem;
   --fs-md: 1rem;
   --fs-lg: 1.25rem;
-  --fs-xl: 2.5rem; 
-  --fs-2xl: 4rem;
+  --fs-xl: 1.5rem; 
+  --fs-2xl: 2rem;
 
   --fw-base: 400;
   --fw-md: 500;
-  --fw-bold: 800;
+  --fw-bold: 700;
 
   --py-base: 1.25rem;
   --py-xl: 2.5rem;
@@ -58,5 +58,36 @@ html {
   font-size: var(--fs-md);
   color: var(--text-color);
 
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font: var(--fw-bold) var(--fs-2xl)/1.25 var(--ff-syne);
+}
+
+
+h2 {
+  font: var(--fw-bold) var(--fs-xl)/1.20 var(--ff-syne);
+}
+
+@media (width >= 80em) {
+  :root{
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 2.5rem; 
+    --fs-2xl: 4rem;
+
+    --py-base: 1rem;
+    --py-xl: 2.5rem;
+    --py-lg: 2rem;
+
+    --px-lg: 2rem;
+
+  }
 }
 
