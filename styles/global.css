@@ -57,7 +57,7 @@ html {
   font-weight: var(--fw-base);
   font-size: var(--fs-md);
   color: var(--text-color);
-
+  overflow-x: hidden;
 }
 
 a{
