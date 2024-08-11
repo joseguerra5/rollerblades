@@ -1,0 +1,62 @@
+footer {
+  margin-block: 3rem 2rem;
+  align-items: center;
+
+  & a {
+    align-items: center;
+    gap: .875rem;
+    margin-bottom: 3rem;
+  }
+
+  & .logo {
+    &>img {
+      transition: transform 0.5s;
+    }
+  
+    &>img:hover {
+      transform: rotate(90deg);
+    }
+  }
+  & div {
+
+    align-items: center;
+  }
+
+  & div:nth-child(2) {
+    & a{
+      border-bottom: 2px solid var(--snitap-sky-mid);
+     
+    }
+  }
+
+
+  & div:nth-child(3) {
+   justify-content: end;
+   gap: 1rem;
+   background-size: 0;
+   
+
+   & a{ 
+    display: flex;
+    align-items: center;
+    border: 5px solid transparent;
+   }
+   & a:hover {
+    background: var(--snitap-sun) no-repeat center;
+    border: 5px solid var(--snitap-sun);
+    background-size: 1rem;
+    border-radius: 50%;
+   }
+  }
+
+  & .about {
+    & a{ 
+      white-space: nowrap;
+
+      &:hover {
+
+      }
+    }
+    
+  }
+}
